@@ -180,7 +180,7 @@ nav > ul > li:first-child > a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 30px;
+    padding: 20px 20px;
 }
 
 input[type=radio]{
