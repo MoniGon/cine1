@@ -6,62 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cine</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6f94f69e77.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- header -->
+    <!-- header - encabezado -->
     <header>
         <div class="container-menu">
             <div class="header-superior">
                 <div class="logo">
-                <img src="img/logo.png" alt="">
-
+                    <img src="img/logo.png" alt="">
                 </div>
-
-                <nav>
-                    <ul>
-                    <li><a href="index.html" id="selector">Inicio</a></li>
-                    <li><a href="generos.html">Géneros</a>
+                    <nav>
                         <ul>
-                            <li><a href="comedia.html">Comedia</a></li>
-                            <li><a href="horror.html">Horror</a></li>
-                            <li><a href="terror.html">Terror</a></li>
-                            <li><a href="drama.html">Drama</a></li>
-                        
-                        
-                        
-                    </li>
-                    </ul>
-                    
-                    <li><a href="tickets.html">Tickets</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                    <li><a href="https://www.rottentomatoes.com/" target="_blank">Roten Tomatoes</a></li>
-                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
-                    <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
-                    <li><a href="https://wa.me/3012700753" target="_blank">Whatsapp</a></li>
-                    
+                            <li><a href="#" id="selector">Inicio</a></li>
+                            <li><a href="generos.html">Generos</a>
+                                <ul>
+                                    <li><a href="comedia.html">Comedia</a></li>
+                                    <li><a href="terror.html">terror</a></li>
+                                    <li><a href="ficcion.html">ficción</a></li>
+                                    <li><a href="accion.html">accion</a></li>
+                                </ul>  
+                            
+                            </li>
+                            <li><a href="tickts.html">Tickets</a></li>
+                            <li><a href="contacto.html">contacto</a></li>
+                            <li><a href="https://www.rottentomatoes.com/" target="_blank">Roten tomatoes</a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                            <li><a href="https://wa.me/3105188168" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
 
-                    </ul>
-                </nav>
-
-
-
-
-            </div>
-            
+                        </ul>
+                
+                    </nav>
+            </div>                      
         </div>
     </header>
+
     <h1 class="title">Novedades</h1>
 
-    <div class="container_slider">
+    <div class="container__slider">
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+        
+
         <div class="cards">
             <label for="item-1" class="card" id="selector-1">
                 <img src="img/1682443537837_Poster.jpg" alt="">
-            </label>    
+            </label>
             <label for="item-2" class="card" id="selector-2">
                 <img src="img/1683455567317_Poster.jpg" alt="">
-            </label>    
+            </label>
             <label for="item-3" class="card" id="selector-3">
                 <img src="img/1684173320520_Poster.jpg" alt="">
-            </label>    
+            </label>
+
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
